@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--========== BOX ICONS ==========-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.7.0.js"
+        integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <title>Nguyen Phuoc Le Hieu - CV</title>
+</head>
+
+<body>
+    <!--========== HEADER ==========-->
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="#" class="nav__logo">Menu</a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class="bx bx-home nav__icon"></i>Home
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#profile" class="nav__link">
+                            <i class="bx bx-user nav__icon"></i>Profile
+                        </a>
+                    </li>
+                    <!-- <li class="nav__item">
+                        <a href="#job-objective" class="nav__link">
+                            <i class="bx bx-edit-alt nav__icon"></i>Job Objective
+                        </a>
+                    </li> -->
+                    <li class="nav__item">
+                        <a href="#professional-summary" class="nav__link">
+                            <i class="bx bx-edit-alt nav__icon"></i>Professional Summary
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#education" class="nav__link">
+                            <i class="bx bx-book nav__icon"></i>Education
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class="bx bx-receipt nav__icon"></i>Skills
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#experience" class="nav__link">
+                            <i class="bx bx-briefcase-alt nav__icon"></i>Experience
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#highlight-project" class="nav__link">
+                            <i class="bx bx-cog nav__icon"></i>Highlight Project
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#interests" class="nav__link">
+                            <i class="bx bx-award nav__icon"></i>Interests
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="bx bx-grid-alt"></i>
+            </div>
+        </nav>
+    </header>
+    <main class="l-main bd-container">
+        <!-- All elements within this div, is generated in PDF -->
+        <div class="resume" id="area-cv">
+            <div class="resume__left">
+                <!--========== HOME ==========-->
+                <section class="home" id="home">
+                    <div class="home__container section bd-grid">
+                        <div class="home__data bd-grid">
+                            <img src="assets/img/image2.jpg" class="home__img" alt="">
+                            <h1 class="home_title">NGUYEN PHUOC LE HIEU</h1>
+                            <h3 class="home_profession">.NET DEVELOPER</h3>
+                            <div>
+                                <a download="" class="home__button-movil"
+                                    href="assets/pdf/CV-NguyenPhuocLeHieu-.Net-Developer.pdf">Download CV</a>
+                            </div>
+                        </div>
+                        <div class="home__address bd-grid">
+                            <span class="home__information">
+                                <i class="bx bx-cake home__icon"></i>14-09-2000
+                            </span>
+                            <span class="home__information">
+                                <i class="bx bx-phone home__icon"></i>0327547475
+                            </span>
+                            <span class="home__information">
+                                <i class="bx bx-envelope home__icon"></i>lehieu.qrt@gmail.com
+                            </span>
+                            <a href="https://nglehieu.github.io/NguyenPhuocLeHieu-CV.github.io/" target="_blank" class="social__link">
+                                <i class="bx bxl-github social__icon"></i>@nglehieu
+                            </a>
+                            <span class="home__information">
+                                <i class="bx bx-map home__icon"></i>Que Loc - Nong Son - Quang Nam
+                            </span>
+                            
+                        </div>
+                    </div>
+                    <i class="bx bx-moon change-theme" title="Theme" id="theme-button"></i>
+                    <i class="bx bx-download generate-pdf" title="Generate PDF" id="resume-button"></i>
+                </section>
+                <!--========== EDUCATION ==========-->
+                <section class="education section" id="education">
+                    <h2 class="section-title">Education</h2>
+                    <div class="education__container bd-grid">
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <!-- <span class="education__line"></span> -->
+                            </div>
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">DAI HOC DONG A</h3>
+                                <span class="education__studies">SPECIALITY: SOFTWARE ENGINEERING</span>
+                                <span class="education__year">2018 - 2022</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+
+                <!--========== SKILLS  ==========-->
+                <section class="skills section" id="skills">
+                    <h2 class="section-title">TECHNICAL Skills</h2>
+                    <div class="skills__content bd-grid technical-text">
+                        <ul class="skills__data">
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>PROJECT MANAGEMENT TOOL: <b
+                                    class="b-text">REDMINE</b>
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>PROGRAMMING LANGUAGE: <b class="b-text">C#</b>
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>FRAMEWORK: <b class="b-text">.NET CORE, .NET
+                                    FRAMEWORK</b>
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>SOURCE CONTROL: <b class="b-text">GITHUB, GITLAB</b>
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>DATABASE: <b class="b-text">SQL SERVER, MySQL</b>
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>OPERATING SYSTEM: <b class="b-text">WINDOW</b>
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>LANGUAGE: <b class="b-text">ENGLISH</b>
+                            </li>
+                        </ul>
+
+                    </div>
+                </section>
+            </div>
+            <div class="resume__right">
+                <!--========== PROFESSIONAL SUMMARY ==========-->
+                <section class="profile section" id="professional-summary">
+                    <h2 class="section-title">PROFESSIONAL SUMMARY</h2>
+                    <p class="profile-description">
+                        - 1,5 years of experience in software development, specialized in web application development.
+                        <br>
+                        - Good understanding of server-side technologies, micro service and system architectures. <br>
+                        - Design many systems using Restful APIs with complex business logic. <br>
+                        - Good written and verbal communication skills.<br>
+                        - Good team-work skills: communication, presentation. <br>
+                    </p>
+                </section>
+                <!--========== Job Objective ==========-->
+                <!-- <section class="profile section" id="job-objective">
+                    <h2 class="section-title">Job Objective</h2>
+                    <p class="profile-description">- Try to learning as much as possible and doing my best in order to
+                        accomplish my task. <br>
+                        - To have good opportunities to get promotion in my job. <br>
+                        - Develop my skills with development of company, I want to prove myself. <br>
+                        - I want to enhance my programming skills and domain knowledge to become a senior developer. I
+                        aim
+                        to participate in larger projects, take on greater responsibilities, and contribute to
+                        architectural design and project management.
+                    </p>
+                </section> -->
+                <!--========== EXPERIENCE ==========-->
+                <section class="experience section" id="experience">
+                    <h2 class="section-title">Experience</h2>
+                    <div class="experience__container bd-grid">
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">NINEPLUS SOLUTION</h3>
+                                <span class="experience__company">October/2022 - Present</span>
+                                <span class="experience__company">Role: Developer</span>
+                                <span class="experience__description">
+                                    - Developed and maintained web applications using C#, ASP.NET MVC, Web API, Entity Framework, SQL Server database management systems. <br>
+                                    - Design and implement a new API for the front-end. <br>
+                                    - Implement API in front-end. <br>
+                                    - Design new UI for website. <br>
+                                    - Design database for project. <br>
+                                    - Experience in development of RESTful API (JSON). <br>
+                                    - Experience working with design patterns. <br>
+                                    - Experience working with MS SQL Server, MySQL database. <br>
+                                    - Have experience deploying the system to a Window Server.<br> 
+                                    - Knowledge of OOP. <br>
+                                    - Have experience working with HTML, CSS, Javascript, Bootstrap, Jquery.<br>
+                                    - Very good written and verbal communication skills.<br>
+                                    - Good team-work skills: communication, presentation, commitment.<br>
+                                    - Working with the waterfall and scrum model.<br> 
+                                    - English intermediate level (writing and speaking). <br>
+                                    - Support training internship. 
+                                </span>
+                            </div>
+                        </div>
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <!-- <span class="experience__line"></span> -->
+                            </div>
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">NINEPLUS SOLUTION</h3>
+                                <span class="experience__company">June/2022 - September/2022</span>
+                                <span class="experience__company">Role: Intership</span>
+                                <span class="experience__company">Responsibilities: </span>
+                                <span class="experience__description">
+                                    - Learn software processes.</br>
+                                    - Improve coding skills.</br>
+                                    - Participate in company projects.</br>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+                <!--========== PROJECT ==========-->
+                <section class="experience section" id="highlight-project">
+                    <h2 class="section-title">HIGHLIGHT PROJECT</h2>
+                    <div class="experience__container bd-grid">
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">PROJECT 1: COURSE PLUS MANAGEMENT SYSTEM</h3>
+                                <span class="experience__company">Project Description: The Online Course Management
+                                    Project</span>
+                                <span class="experience__company"> - Develop the functions Product, Product Details, Add
+                                    to Card and Online Payment,..</span>
+                                <span class="experience__company">Time : (6 month) - January/2022 - June/2022</span>
+                                <span class="experience__company">Team Size: 6 members</span>
+                                <span class="experience__company">Role: Developer</span>
+                                <span class="experience__company">Technology used: .Net 5, SQL Server, HTML, CSS,
+                                    Bootstrap, Angular</span>
+                                <span class="experience__company">Responsibilities: </span>
+                                <span class="experience__description">
+                                    - Design and implement a new API.</br>
+                                    - Fix bugs in FrontEnd and BackEnd. <br>
+                                    - Learn software processes.</br>
+                                    - Improve coding skills.</br>
+                                    - Participate in company projects.</br>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">PROJECT 2: NEWS MANAGEMENT PROJECT</h3>
+                                <span class="experience__company">Project Description: News Management Project(Manage
+                                    Function Post News, )</span>
+                                <span class="experience__company"> - Develop the functions Post News, Comment,..</span>
+                                <span class="experience__company">Time : (2 month) - July/2022 - August/2022</span>
+                                <span class="experience__company">Team Size: 1 members</span>
+                                <span class="experience__company">Role: Developer</span>
+                                <span class="experience__company">Technology used: ASP.NET MVC, SQL Server</span>
+                                <span class="experience__company">Responsibilities: </span>
+                                <span class="experience__description">
+                                    - Design Database. <br>
+                                    - Design UI. <br>
+                                    - Design and implement a new Action in Controller.
+                                </span>
+                            </div>
+                        </div>
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">PROJECT 3: ERP(Enterprise Resource Planning)</h3>
+                                <span class="experience__company">Project Description: Manage HRM, CRM, Report
+                                    Project</span>
+                                <span class="experience__company">Time : (6 month) - October/2022 - March/2023</span>
+                                <span class="experience__company">Team Size: 6 members</span>
+                                <span class="experience__company">Role: Developer</span>
+                                <span class="experience__company">Technology used: .Net 6, SQL Server, Angular</span>
+                                <span class="experience__company">Responsibilities: </span>
+                                <span class="experience__description">
+                                    - Design and implement a new API <br>
+                                    - Fix bugs in back-end <br>
+                                    - Support QA team to perform automated testing for APIs <br>
+                                </span>
+                            </div>
+                        </div>
+                        <!-- <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">PROJECT 4: CLES</h3>
+                                <span class="experience__company">Project Description: Real estate contract electronic
+                                    registration system
+                                    Project</span>
+                                <span class="experience__company">Time : (2 month) - January/2023 - February/2023</span>
+                                <span class="experience__company">Team Size: 3 members</span>
+                                <span class="experience__company">Role: Developer</span>
+                                <span class="experience__company">Technology used: .Net Core 3.1 MVC, SQL Server,
+                                    Bootstrap, CSS,
+                                    Jquery</span>
+                                <span class="experience__company">Responsibilities: </span>
+                                <span class="experience__description">
+                                    - Develop the UI.</br>
+                                    - Develop API for front-end.</br>
+                                    - Fix bugs in front-end and back-end.</br>
+                                    - Integrate the APIs with UI.
+                                </span>
+                            </div>
+                        </div> -->
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">PROJECT 5: CDC QUANG NAM</h3>
+                                <span class="experience__company">Project Description: Warehouse management
+                                    system</span>
+                                <span class="experience__company">Time : (3 month) - March/2023 - May/2023</span>
+
+                                <span class="experience__company">Team Size: 3 members</span>
+                                <span class="experience__company">Role: Developer</span>
+                                <span class="experience__company">Technology used: .Net 6, SQL Server</span>
+                                <span class="experience__company">Responsibilities: </span>
+                                <span class="experience__description">
+                                    - Database design analysis.</br>
+                                    - Design and implement a new API. <br>
+                                    - Fix bugs in back-end. <br>
+                                    - Support QA team to perform automated testing for APIs
+                                </span>
+                            </div>
+                        </div>
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">PROJECT 6: WMS - HOSPITAL QUANG NAM</h3>
+                                <span class="experience__company">Project Description: Device Management Software</span>
+                                <span class="experience__company">Time : (3 month) - April/2023 - June/2023</span>
+                                <span class="experience__company">Team Size: 3 members</span>
+                                <span class="experience__company">Role: Developer</span>
+                                <span class="experience__company">Technology used: .Net 7, SQL Server</span>
+                                <span class="experience__company">Responsibilities: </span>
+                                <span class="experience__description">
+                                    - Database design analysis.</br>
+                                    - Design and implement a new API.</br>
+                                    - Fix bugs in back-end.</br>
+                                    - Support QA team to perform automated testing for APIs.
+                                </span>
+                            </div>
+                        </div>
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <!-- <span class="experience__line"></span> -->
+                            </div>
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">PROJECT 7: EHC - HOSPITAL QUANG NAM</h3>
+                                <span class="experience__company">Project Description: Employee Health Care Hospital
+                                    Quang Nam</span>
+                                <span class="experience__company">Time : (3 month) - April/2023 - June/2023</span>
+                                <span class="experience__company">Team Size: 2 members</span>
+                                <span class="experience__company">Role: Developer</span>
+                                <span class="experience__company">Technology used: .Net 7, SQL Server</span>
+                                <span class="experience__company">Responsibilities: </span>
+                                <span class="experience__description">
+                                    - Database design analysis.</br>
+                                    - Design and implement a new API.</br>
+                                    - Fix bugs in back-end.</br>
+                                    - Support QA team to perform automated testing for APIs.
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!--========== INTERESTS ==========-->
+                <section class="interests section" id="interests">
+                    <h2 class="section-title">Interests</h2>
+                    <div class="interests__container bd-grid">
+                        <div class="interests__content">
+                            <i class="bx bx-football interests__icon"></i>
+                            <span class="interests__name"></span>Football
+                        </div>
+                        <div class="interests__content">
+                            <i class="bx bx-headphone interests__icon"></i>
+                            <span class="interests__name"></span>Music
+                        </div>
+                        <div class="interests__content">
+                            <i class="bx bxs-plane-alt interests__icon"></i>
+                            <span class="interests__name"></span>Travel
+                        </div>
+                        <div class="interests__content">
+                            <i class="bx bx-book interests__icon"></i>
+                            <span class="interests__name"></span>Read Book
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+        </div>
+    </main>
+    <!--========== SCROLL TOP ==========-->
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class="bx bx-up-arrow-alt scrolltop__icon"></i>
+    </a>
+    <!--========== HTML2PDF ==========-->
+    <script src="assets/js/html2pdf.bundle.min.js"></script>
+    <!--========== MAIN JS ==========-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
