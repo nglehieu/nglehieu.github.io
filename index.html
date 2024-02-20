@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Nguyen Phuoc Le Hieu</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Nguyen Phuoc Le Hieu</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img class="image-profile" src="./assets/hieu-1.jpg" alt="Nguyen Phuoc Le Hieu profile picture"/>
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Nguyen Phuoc Le Hieu</h1>
+        <p class="section__text__p2">.NET Developer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/CV-NguyenPhuocLeHieu-.Net-Developer.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://linkedin.com/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/hieu.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>2+ years <br />.NET Development</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>Degree of Software Engineering <br> Dong A University of Industry Class of 2022 </p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p style="text-indent: 28px;">
+              Hello, I'm Nguyen Phuoc Le Hieu, a software developer with 1.5 years 
+              of experience in web application development. With a solid understanding 
+              of server-side technologies, microservices, and system architectures,
+              I've designed numerous systems using Restful APIs with intricate business logic. 
+              I possess strong written and verbal communication skills, along with excellent 
+              teamwork abilities including communication and presentation.
+              <br>
+              I have experience working with a variety of development technologies and tools, 
+              including C#, ASP.NET MVC, Web API, Entity Framework, and SQL Server database management systems. 
+              I've designed and implemented several APIs for the frontend, ensuring flexibility and high performance 
+              through the use of RESTful APIs and object-oriented programming. My expertise extends beyond the server-side 
+              to the frontend, with skills in HTML, CSS, JavaScript, Bootstrap, and JQuery.
+              <br>
+              Additionally, I have experience deploying systems to Windows servers and supporting training for interns. 
+              I'm always seeking opportunities to develop my skills and apply my knowledge to new projects.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience" style="margin-top: 120px;">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">BackEnd Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>.NET Core</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SQL Server</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Windows</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Entity Framework</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git/GitLab</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Bootstrap</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Jquery</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Angular</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Language</h2>
+            <div class="article-container">
+              
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>English</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Japan</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+            </div>
+          </div> 
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects" style="margin-top: 120px;">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-1.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project One : <span style="font-weight: 600;">Course Plus</span></h2>
+            <p class="description-project" style="padding-bottom: 10px;">This a personal project, with teamsize of four. I and partner develop website to online course, course payments, quiz and meetings.</p>
+            
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-2.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Two : <span style="font-weight: 600;">ERP</span></h2>
+            <p class="description-project" style="padding-bottom: 10px;">ERP (Enterprise Resource Planning) system is an integrated software designed to manage and organize core business activities of an enterprise, from financial management, human resources, inventory management to manufacturing and marketing.</p>
+
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-3.jpg"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Three : <span style="font-weight: 600;">WMS</span></h2>
+            <p class="description-project" style="padding-bottom: 10px;">WMS (Warehouse Management System) is a product project of the company, a hospital medical equipment management system, with the following functions: allocation, repair, maintenance.</p>
+            </div>
+        </div>
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-4.jpg"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Four : <span style="font-weight: 600;">EHC</span></h2>
+            <p class="description-project" style="padding-bottom: 10px;">
+              EHC (Ehealthcare). The health examination record management project for hospital staff assists in organizing health information, ensuring the proper execution of regular check-ups, and providing analytical data for effective health resource management.
+            </p>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-5.jpg"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Five : <span style="font-weight: 600;">BOOKING</span></h2>
+            <p class="description-project" style="padding-bottom: 10px;">
+              This is a project about spa booking service. The spa booking system enables customers to conveniently and quickly schedule spa appointments online, including selecting services, dates, times, and suitable staff.
+            </p>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-6.jpg"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Six : <span style="font-weight: 600;">OKOK-ADEX</span></h2>
+              <p class="description-project" style="padding-bottom: 10px;">
+                This is the Online Marketing System, and the clients are from Korea. The Online Marketing System is an integrated platform of tools enabling businesses to efficiently reach customers through online channels such as email, social media, and search. It provides data analysis and optimization features to enhance marketing strategies, from attracting traffic to building strong customer relationships and increasing sales.
+              </p>
+            </div>
+        </div>
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container project-12">
+              <img 
+                src="./assets/project-12.jpg"
+                alt="Project 1"
+                class="project-img" 
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Seven : <span style="font-weight: 600;">ORDERING-HOTEL</span></h2>
+            <p class="description-project" style="padding-bottom: 10px;">
+              This is an online food ordering system that allows customers to easily browse and order food from various restaurants. Users can explore menus, select dishes, and place orders conveniently through the platform. The system facilitates efficient order processing and delivery, providing a seamless experience for both customers and restaurants.
+            </p>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-8.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Nine : <span style="font-weight: 600;">NGOCCHI-RESTAURANT</span></h2>
+            <p class="description-project" style="padding-bottom: 10px;">
+              This is an online food ordering system tailored for vegetarian restaurants. It offers customers a seamless experience to browse menus, select dishes, and place orders. Additionally, it assists restaurants in efficiently managing and delivering orders, ensuring a smooth online shopping experience for both parties. 
+            </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-9.jpg"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Eight : <span style="font-weight: 600;">CLES</span></h2>
+            <p class="description-project" style="padding-bottom: 10px;">
+              This is a project for an electronic real estate contract registration system, designed specifically for Japanese clients. The system aims to simplify the process of registering real estate contracts online, providing convenience and efficiency for both clients and real estate professionals.
+            </p>
+          </div>
+          
+        </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/nguyen-phuoc-le-hieu-224066245/">LinkedIn</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/skype.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://join.skype.com/invite/voQt4BSHAueJ">Skype</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:lehieu.qrt@gmail.com">lehieu.qrt@gmail.com</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2023 Le Hieu. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
